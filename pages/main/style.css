@@ -51,6 +51,7 @@ footer {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+    color: #4C4C4C;
 }
 
 .button {
@@ -62,6 +63,7 @@ footer {
     font-size: 17px;
     line-height: 22px;
     letter-spacing: 0.06em;
+    color: #292929;
 }
 
 .filled-button {
@@ -78,7 +80,6 @@ footer {
 }
 
 .header-logo {
-    min-width: 185px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -131,16 +132,40 @@ footer {
 }
 
 .not-only-content {
-    min-width: 460px;
+    max-width: 460px;
     margin-top: 163px;
+}
+
+.not-only-title {
+    max-width: 310px;
 }
 
 .not-only-text {
     margin-top: 42px;
+    color: #CDCDCD;
 }
 
 .not-only-button {
     margin-top: 42px;
+}
+
+
+/* about shelter section */
+.about-shelter-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about-shelter-content {
+    max-width: 430px;
+}
+
+.about-shelter-image {
+    margin-right: 120px;
+}
+
+.about-shelter-text {
+    margin-top: 25px;
 }
 
 
