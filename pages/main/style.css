@@ -292,6 +292,7 @@ footer {
     padding-bottom: 0;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .footer-col-container {
