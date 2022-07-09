@@ -54,6 +54,15 @@ footer {
     color: #4C4C4C;
 }
 
+.small-text {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
 .button {
     padding: 15px 45px;
     border: 2px solid #F1CDB3;
@@ -150,6 +159,7 @@ footer {
 /* about shelter section */
 .about-shelter-wrapper {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -239,6 +249,40 @@ footer {
 
 .can-help-image-description {
     margin-top: 30px;
+}
+
+
+/* make donation section */
+.make-donation-container {
+    margin: 0 auto;
+    max-width: 916px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.make-donation-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.make-donation-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background: #F1CDB3;
+    border-radius: 9px; 
+}
+
+.make-donation-card-number {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
 }
 
 
