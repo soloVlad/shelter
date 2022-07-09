@@ -1,0 +1,24 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 80px 40px 100px 40px;
+    max-width: 1280px;
+}
+
+.header-wrapper {
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+.not-only-wrapper {
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+.footer-wrapper {
+    padding-top: 40px;
+    padding-bottom: 0;
+}
