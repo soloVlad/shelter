@@ -71,8 +71,55 @@ footer {
 
 /* header */
 .header-wrapper {
+    display: flex;
+    align-items: center;
     padding-top: 60px;
     padding-bottom: 0;
+}
+
+.header-logo {
+    min-width: 185px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-logo-title {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.header-logo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+}
+
+.header-menu-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #CDCDCD;
 }
 
 
@@ -80,10 +127,6 @@ footer {
 .not-only-wrapper {
     padding-top: 60px;
     padding-bottom: 0;
-}
-
-.not-only-button {
-  
 }
 
 
