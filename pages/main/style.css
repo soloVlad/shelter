@@ -64,6 +64,7 @@ footer {
     line-height: 22px;
     letter-spacing: 0.06em;
     color: #292929;
+    background-color: #FAFAFA;
 }
 
 .filled-button {
@@ -136,10 +137,6 @@ footer {
     margin-top: 163px;
 }
 
-.not-only-title {
-    max-width: 310px;
-}
-
 .not-only-text {
     margin-top: 42px;
     color: #CDCDCD;
@@ -170,8 +167,51 @@ footer {
 
 
 /* our friends section */
+.our-friends-title {
+    text-align: center;
+}
+
+.slider {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+}
+
+.slider-item-container {
+    display: flex;
+    gap: 90px;
+}
+
+.slider-item {
+    max-width: 270px;
+    background-color: #FAFAFA;
+    padding-bottom: 30px;
+}
+
+.slider-item-title {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.slider-item > .button {
+    display: block;
+    margin: 30px auto 0 auto;
+}
+
 .our-friends-button {
-    width: 261px;
+    display: block;
+    margin: 60px auto 0 auto;
 }
 
 
