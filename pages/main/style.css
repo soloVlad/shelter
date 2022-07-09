@@ -125,8 +125,22 @@ footer {
 
 /* not only section */
 .not-only-wrapper {
+    display: flex;
     padding-top: 60px;
     padding-bottom: 0;
+}
+
+.not-only-content {
+    min-width: 460px;
+    margin-top: 163px;
+}
+
+.not-only-text {
+    margin-top: 42px;
+}
+
+.not-only-button {
+    margin-top: 42px;
 }
 
 
