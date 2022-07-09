@@ -1,5 +1,25 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* temporary */
+header, 
+.not-only,
+footer {
+    background-color:  #211F20;
+}
+
+
+/* general properties */
+.gray-bg {
+    background-color:#F6F6F6;
 }
 
 .wrapper {
@@ -8,16 +28,72 @@
     max-width: 1280px;
 }
 
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #545454;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+}
+
+.main-title {
+    font-size: 44px;
+    line-height: 57px;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.text {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.button {
+    padding: 15px 45px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+}
+
+.filled-button {
+    background: #F1CDB3;
+}
+
+
+/* header */
 .header-wrapper {
     padding-top: 60px;
     padding-bottom: 0;
 }
 
+
+/* not only section */
 .not-only-wrapper {
     padding-top: 60px;
     padding-bottom: 0;
 }
 
+.not-only-button {
+  
+}
+
+
+/* our friends section */
+.our-friends-button {
+    width: 261px;
+}
+
+
+/* footer */
 .footer-wrapper {
     padding-top: 40px;
     padding-bottom: 0;
