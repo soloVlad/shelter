@@ -290,4 +290,37 @@ footer {
 .footer-wrapper {
     padding-top: 40px;
     padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col-container {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-col-contact {
+    max-width: 280px;
+}
+
+.footer-col-address {
+    max-width: 302px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-contact-info {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
 }
