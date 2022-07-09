@@ -215,6 +215,33 @@ footer {
 }
 
 
+/* can help section */
+.can-help-title {
+    text-align: center;
+}
+
+.can-help-container {
+    max-width: 1026px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px 120px;
+}
+
+.can-help-item {
+    text-align: center;
+}
+
+.can-help-image {
+    width: 60px;
+}
+
+.can-help-image-description {
+    margin-top: 30px;
+}
+
+
 /* footer */
 .footer-wrapper {
     padding-top: 40px;
